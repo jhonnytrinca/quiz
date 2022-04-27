@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Questionario from '../components/Questionario';
 import QuestaoModel from '../model/questao';
 
-const BASE_URL = 'https://quiz-virid.vercel.app/';
+const BASE_URL = 'https://quiz-virid.vercel.app/api';
 
 const Home = () => {
   const [ids, setIds] = useState<number[]>([]);
